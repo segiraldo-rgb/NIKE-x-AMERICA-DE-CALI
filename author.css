@@ -1,0 +1,8 @@
+/* Correcciones de autoría y rutas de recursos */
+.hero__image, .legacy__image, .innovation__photo, .product-card__image img {
+  background-color: #210609;
+}
+.hero__image { background-image: url("pascual-lanzamiento-cancha.png"); }
+.legacy__image { background-image: url("pascual-fachada-alianza.png"); }
+.innovation__photo { background-image: linear-gradient(rgba(10,10,10,.12),rgba(10,10,10,.12)), url("pascual-tunel-uniforme.png"); }
+.footer__author, .author-credit { display:block; margin-top:8px; color:#bbb; font-size:10px; }
